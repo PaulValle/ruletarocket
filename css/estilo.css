@@ -75,7 +75,7 @@ h1{
   body{
     background-image: url(../img/fondo.jpg);
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
