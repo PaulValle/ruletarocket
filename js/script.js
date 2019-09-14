@@ -68,7 +68,7 @@ function calcular(rand){
     	    break;
     	case valor > 45 && valor <= 90:
              modal2.style.display = "block";
-    	    alert("Pierdes 5 pokeballs!");
+    	    //alert("Pierdes 5 pokeballs!");
     	    //sumarPuntos(20);
     	    break;
         case valor > 90 && valor <= 135:
