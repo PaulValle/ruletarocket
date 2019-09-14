@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TeamGoRocket</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: black;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  color: white;
+    text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+</style>
+</head>
+
+<body>
+<div>
+
+	<div class="vara">
+	    <img src="../img/stop.png" alt="">
+	</div>
+	<div class="col-md-12">
+	    <img src="../img/ruletapelea.png" id="ruleta" class="ruleta">
+	</div>
+	
+</div>
+
+
+<!-- The Modal -->
+<div id="pelea1" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará sin utilizar escudos</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea2" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará utilizando al menos un pokémon del TeamGoRocket o evoluciones(zubat, grimer, larvitar, drowzee, etc.)</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea3" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará utilizando un magikarp en el equipo</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea4" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará utilizando pokémon de la región de kanto</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea5" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará utilizando un pokémon comodin de otra región</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea6" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará sin utilizar ataques cargados. ¡Duelo a muerte con básicos!</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea7" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">El combate se realizará utilizando al menos un pokémon del TeamGoRocket o evoluciones(zubat, grimer, larvitar, drowzee, etc.)</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+<div id="pelea8" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <img class ="imagen"src="../img/gooo.png" alt="">
+    </div>
+    <div class="modal-body">
+     <hr>
+      <p class="modal-text">¡El combate se realizará sin reglas! Se permite cualquier estrategia para vencer/persuadir al lider.</p>
+      <hr>
+    </div>
+    <div class="modal-footer">
+     <br>
+      <a id="vibrate" class="return" href="../index.html">Aceptar</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="../js/pelea.js"></script>
+<script>
+      window.navigator = window.navigator || {};
+      if (navigator.vibrate === undefined) {
+          document.getElementById('v-unsupported').classList.remove('hidden');
+          ['button-play-v-once', 'button-play-v-thrice', 'button-stop-v'].forEach(function(elementId) {
+            document.getElementById(elementId).setAttribute('disabled', 'disabled');
+          });
+      } else {
+          document.getElementById('vibrate').addEventListener('click', function() {
+            navigator.vibrate(1000);
+          });
+          document.getElementById('button-play-v-thrice').addEventListener('click', function() {
+            navigator.vibrate([1000, 500, 1000, 500, 2000]);
+          });
+          document.getElementById('button-stop-v').addEventListener('click', function() {
+            navigator.vibrate(0);
+          });
+      }
+    </script>
+
+</body>
+</html>
