@@ -75,9 +75,11 @@ h1{
   body{
     background-image: url(../img/fondo.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    height: 100%;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 .modal-text{
     color: white;
